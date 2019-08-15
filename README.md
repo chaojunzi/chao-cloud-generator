@@ -112,6 +112,6 @@ CREATE TABLE `xc_user` (
 ```
 
 ## 效果图展示
-![Image text](https://github.com/chaojunzi/chao-cloud-generator/blob/master/screenshot/1.png)
-![Image text](https://github.com/chaojunzi/chao-cloud-generator/blob/master/screenshot/2.png) 
-![Image text](https://github.com/chaojunzi/chao-cloud-generator/blob/master/screenshot/3.png) 
+![Image text](screenshot/1.png)
+![Image text](screenshot/2.png) 
+![Image text](screenshot/3.png) 
