@@ -17,6 +17,14 @@ public interface XcConstant {
 
 	String ADMIN_MENU = "<a link=\"/xc/user\" href=\"javascript:;\">用户管理</a>";
 
+	Integer TOP_ID = 0;
+
+	String TOP_ICON = "layui-icon layui-icon-link";
+
+	String CHILDREN_ICON = "layui-icon layui-icon-circle-dot";
+
+	String HREF_TEMPLATE = "/generator?id={}";
+
 	/**
 	 * 状态
 	 */
