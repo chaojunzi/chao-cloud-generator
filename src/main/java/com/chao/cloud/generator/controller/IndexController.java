@@ -13,9 +13,9 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.chao.cloud.common.config.web.HealthController;
-import com.chao.cloud.common.config.web.HealthController.CoreParam;
 import com.chao.cloud.common.util.EntityUtil;
+import com.chao.cloud.common.web.HealthController;
+import com.chao.cloud.common.web.HealthController.CoreParam;
 import com.chao.cloud.generator.constant.XcConstant;
 import com.chao.cloud.generator.dal.entity.XcConfig;
 import com.chao.cloud.generator.dal.entity.XcGroup;
