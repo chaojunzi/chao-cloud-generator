@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.chao.cloud.common.util.EntityUtil;
-import com.chao.cloud.common.web.HealthController;
-import com.chao.cloud.common.web.HealthController.CoreParam;
+import com.chao.cloud.common.web.controller.HealthController;
+import com.chao.cloud.common.web.controller.HealthController.CoreParam;
 import com.chao.cloud.generator.constant.XcConstant;
 import com.chao.cloud.generator.dal.entity.XcConfig;
 import com.chao.cloud.generator.dal.entity.XcGroup;
@@ -31,9 +31,8 @@ import cn.hutool.core.util.StrUtil;
 import cn.hutool.json.JSONUtil;
 
 /**
- * @功能：
- * @author： 超君子
- * @时间：2019-07-23
+ * @功能： @author： 超君子 @时间：2019-07-23
+ * 
  * @version 1.0.0
  */
 @RequestMapping
@@ -47,6 +46,7 @@ public class IndexController extends BaseController {
 
 	/**
 	 * 首页
+	 * 
 	 * @param m
 	 * @param session
 	 * @return
@@ -76,6 +76,7 @@ public class IndexController extends BaseController {
 
 	/**
 	 * 主页面
+	 * 
 	 * @return
 	 */
 	@RequestMapping("main")
@@ -87,6 +88,7 @@ public class IndexController extends BaseController {
 
 	/**
 	 * 系统左侧导航菜单
+	 * 
 	 * @return
 	 */
 	@RequestMapping("/menu/leftList")
